@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*Es todo el html*/
+html,body{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(7, 7, 7);
+}
+h1{
+    font-size: 2.5rem;/*Para la medida*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 2rem;/*Para la medida*/
+    font-family: cursive;
+}
+p{
+    font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.5em;/*Interlineado*/
+	font-weight: 300; 
+}
+a {
+	text-decoration: none;
+}
+.logo1{
+	display: flex;
+}
+.logo1 img{
+	height: 50px;
+
+}
+/*Las clases*/
+.container {
+	margin: auto;
+	max-width: 1200px;
+	overflow: auto;
+	padding : 0 20px;
+}
+.large {
+	font-size: 1.25rem;
+}
+
+.txt-green {
+	color: #049a16;
+}
+
+.display-1 {
+	font-size: 3rem;
+}
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 4px;
+}
+
+.btn-round {
+	border-radius: 20px;
+}
+
+.btn-dark {
+	background: #0ac322;
+	border: 1px solid #e9a075;
+	color: #fff;
+	text-align: center;
+
+}
+/* Main */
+
+#main {
+	background: radial-gradient(at 10% 10px, #5da862, rgb(111, 60, 60), #fff);
+	height: 125vh;
+}
+#navbar {
+	color: #fff;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #040404;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 16px;
+	font-size: 25px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover {
+	color: #ff0505;
+}
+#showcase {
+	padding: 20px 0;
+}
+
+.showcase-row {
+	display: flex;
+	padding: 150px 10px;
+}
+
+.showcase-row-title p.large {
+	padding-bottom: 15px;
+}
+/* About Me */
+#about {
+	background-color: antiquewhite;
+	padding: 80px 0;
+	text-align: justify;
+}
+
+#about h2 {
+	padding-bottom: 50px;
+}
+
+#about p {
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+
+/*img{
+	width: 550px;
+	height: auto;
+	display: block;
+	border: double;
+	border: 10px double 
+}
+/*Servicios*/
+#servicios{
+	background: radial-gradient(at 10% 10px, #5da862, rgb(111, 60, 60), #fff);
+	padding: -30px 0;
+	text-align: center;
+}
+#servicios p {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.servicios-row {
+	display: flex ;
+}
+.servicios-row img {
+	width: 100%;
+	padding: 10px;
+	border: double;
+	border-radius: 20px;
+}
+/* Contact */
+#contact {
+	background-color: antiquewhite;
+	padding: 80px 0;
+}
+
+#contact h2 {
+	text-align: center;
+}
+
+#contact p {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.contact-row {
+	display: flex;
+	padding: 20px;
+}
+
+.contact-row-img {
+	width: 50%;
+}
+
+.contact-row-img img {
+	padding: 120px;
+}
+
+.contact-row-form {
+	width: 80%;
+	border: 4px double #858282;
+	border-radius: 20px;
+	padding: 80px;
+}
+
+.contact-row-form h4 {
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.contact-row-form button {
+	width: 100%;
+}
+
+
